@@ -29,7 +29,7 @@ html {
     height: 8rem;
 }
 
-.header__navbar--table {
+.rm--mobile {
     display: none;
 }
 
@@ -43,10 +43,6 @@ html {
     justify-content: space-between;
 }
 
-.main__section {
-    font-size: 1.6rem;
-}
-
 .size--title {
     font-size: 3.4rem;
 }
@@ -55,7 +51,8 @@ html {
     color: var(--blue);
 }
 
-.size--paragraph {
+.size--paragraph, .size--paragraph--current {
+    line-height: 1.4;
     font-size: 1.6rem;
 }
 
@@ -152,9 +149,16 @@ html {
     padding: 1rem 1.2rem;
 }
 
+.article__button {
+    max-width: 20rem;
+}
+
 .footer__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.size--medium {
     font-size: 1.4rem;
 }
 
@@ -195,6 +199,10 @@ html {
 
 .container--flex--end {
     justify-content: flex-end;
+}
+
+.form__div {
+    max-width: 30rem;
 }
 
 .input__email {

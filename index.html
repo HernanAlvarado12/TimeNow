@@ -14,35 +14,43 @@
 
     <body>
 
-        <header class ="container--width container--margin--auto">
+        <header class ="container--width container--margin--auto header--width--table">
             <nav class ="header__navbar container--flex container--flex--justify">
-                <img src ="./asssets/logo.svg" alt ="Logo of the page Time now">    
-                <img class ="rm--table" src ="./asssets/menu.svg" alt ="Icon of menu">
+                <div class ="container--flex container--padding--left">
+                    <img src ="./asssets/logo.svg" alt ="Logo of the page Time now">   
+                    <li class ="rm--mobile"><a class ="alink alink--color navbar__alink size--medium" href ="">Features</a></li>
+                    <li class ="rm--mobile"><a class ="alink alink--color size--medium" href ="">Pricing</a></li>
+                </div>
+                <figure class ="navbar__figure container--flex container--flex--end container--padding--right">
+                    <img class ="rm--table" src ="./asssets/menu.svg" alt ="Icon of menu">
+                </figure> 
             </nav>
         </header>
 
         <main>
-            <section class ="main__section container--width container--margin--auto">
-                <h1 class ="size--title element--color--blue">Post when your audience is most active.</h1>
-                <p class ="size--paragraph element--color--soft">With TimeNow, automatically schedule your posts on Twitter, Linkedln, and instagram to post whem your followers are most active.</p>
-                <button class ="button__primary element--width--medium">
-                    <a class ="alink element--bold" href ="">Start Scheduling</a>
-                </button>
-                <button class ="button__primary button__primary--color element--width--medium">
-                    <a class ="alink alink--color element--bold" href ="">View Demo</a>
-                </button>
-                <figure class ="container--flex flex--column section__figure">
-                    <img src ="./asssets/shield.svg" alt ="Icon od shield">
-                    <figcaption class ="container--flex container--flex--column">
-                        <span>TimeNow does not sell your data</span>
-                        <a class ="alink--color element--bold" href ="">Learn more</a>
-                    </figcaption>
+            <section class ="main__section--grid main__section__principal size--paragraph">
+                <section class ="container--width container--margin--auto container--padding--left">
+                    <h1 class ="size--title element--color--blue main--padding--top">Post when your audience is most active.</h1>
+                    <p class ="element--color--soft paragraph--margin--tb">With TimeNow, automatically schedule your posts on Twitter, Linkedln, and instagram to post whem your followers are most active.</p>
+                    <button class ="button__primary element--width--medium">
+                        <a class ="alink element--bold" href ="">Start Scheduling</a>
+                    </button>
+                    <button class ="button__primary button__primary--color element--width--medium">
+                        <a class ="alink alink--color element--bold" href ="">View Demo</a>
+                    </button>
+                    <figure class ="container--flex flex--column section__figure size--paragraph--current">
+                        <img src ="./asssets/shield.svg" alt ="Icon od shield">
+                        <figcaption class ="container--flex container--flex--column">
+                            <span>TimeNow does not sell your data</span>
+                            <a class ="alink--color element--bold" href ="">Learn more</a>
+                        </figcaption>
+                    </figure>
+                </section>
+                <figure class ="main__figure">
+                    <img class ="element--total" src ="./asssets/mockup.png" alt ="Photo of start of the page">
                 </figure>
             </section>
-            <figure class ="main__figure">
-                <img class ="element--total" src ="./asssets/mockup.png" alt ="Photo of start of the page">
-            </figure>
-            <section class ="container--padding--tb container--width container--margin--auto">
+            <section class ="main__section--grid main__section__social container--padding--tb container--width container--margin--auto">
                 <h2 class ="size--title element--color--blue">TimeNow is used by the most influential people.</h2>
                 <figure class ="container--padding-t container--flex flex--column">
                     <img class ="figure__image" src ="./asssets/UA1.png" alt ="Photo of users">
@@ -54,36 +62,36 @@
                     <img class ="figure__image" src ="./asssets/UA7.png" alt ="Photo of users">
                     <img class ="figure__image" src ="./asssets/UA8.png" alt ="Photo of users">
                 </figure>
+                <p class ="section__paragraph size--paragraph element--padding--tb">
+                    The most  influential people on Facebook, Twitter, and instagram are using Tweet to schedule posts when 
+                    their followers are most active.<br><br>
+                    They generally receive 23% more engagement than people who do not.
+                </p>
             </section>            
-            <p class ="element--width element--margin--auto size--paragraph element--padding-b">
-                The most  influential people on Facebook, Twitter, and instagram are using Tweet to schedule posts when 
-                their followers are most active.<br><br>
-                They generally receive 23% more engagement than people who do not.
-            </p>
             <article class ="main__article container--padding--tb">
                 <p class ="article__paragraph element--bold element--width element--margin--auto">Unified Dashboard</p>
-                <h2 class ="size--title article__title element--width element--margin--auto">Customizable dashboard for all platforms.</h2>
+                <h2 class ="size--title article__title element--width element--margin--auto element--padding--left">Customizable dashboard for all platforms.</h2>
                 <p class ="size--paragraph element--color--soft element--width element--margin--auto element--margin-tb-one">
                     Use Twitter and Instagram but noa Linkekln? You can customize your dashboard to your liking. You can 
                     even schedule the same post to individual platforms instead all platforms.
                 </p>
-                <button class ="button__primary button__primary--margin">
-                    <a class ="alink" href ="">Start Scheduling</a>
+                <button class ="article__button button__primary button__primary--margin">
+                    <a class ="alink element--bold" href ="">Start Scheduling</a>
                 </button>
             </article>
             <article class ="main__article container--padding--tb">
                 <p class ="article__paragraph element--bold element--width element--margin--auto">Enhanced Analytics</p>
-                <h2 class ="size--title article__title element--width element--margin--auto">Real-time data thar tells your everything.</h2>
+                <h2 class ="size--title article__title element--width element--margin--auto element--padding--left">Real-time data thar tells your everything.</h2>
                 <p class ="size--paragraph element--color--soft element--width element--margin--auto element--margin-tb-one">
                     Get detailed reporst of what's working and what isn't. Engagement rates, impressions, views, and much more data is available to you through our in-depth dashboard tool.
                 </p>
-                <button class ="button__primary button__primary--margin button__primary--color">
-                    <a class ="alink alink--color" href ="">View Live Demo</a>
+                <button class ="article__button button__primary button__primary--margin button__primary--color">
+                    <a class ="alink alink--color element--bold" href ="">View Live Demo</a>
                 </button>
             </article>
         </main>
 
-        <footer class ="footer__container container--width container--margin--auto container--padding--tb">
+        <footer class ="footer__container container--width container--margin--auto container--padding--tb size--medium">
             <img class ="footer__image" src ="./asssets/logo.svg" alt ="Icon of Logo of the page">
             <ul class ="footer__list">
                 <li class ="list__item"><a class ="alink element--color--black element--bold" href ="">Product</a></li>
@@ -105,7 +113,7 @@
             </ul>
             <form class ="footer__form">
                 <span class ="footer__title element--color--black element--bold">Try TweetNow</span>
-                <div class ="container--flex container--flex--end container--relative">
+                <div class ="form__div container--flex container--flex--end container--relative">
                     <input class ="input input__email element--bold" type ="email" placeholder ="Email Address">
                     <input class ="input input__submit button__primary" type ="submit" placeholder ="Start Scheduling">
                 </div>
